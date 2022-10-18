@@ -6,7 +6,7 @@
 }
 
 body {
-    background: hsl(225, 100%, 98%);
+    background: hsl(127, 81%, 94%);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -34,17 +34,22 @@ main section {
 main section h1 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: hsl(224, 23%, 55%);
+    color: hsl(160, 23%, 55%);
 }
 
 main section span {
-    color: hsl(224, 23%, 55%);
+    color: hsl(160, 23%, 55%);
     text-align: center;
 }
 
-main img {
+main .logo {
     width: 100%;
     border-radius: 1rem 1rem 0 0;
+}
+
+main .icon img {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem;
 }
 
 main .informations {
@@ -74,7 +79,7 @@ main .informations img {
 }
 
 main .informations a {
-    color: hsl(245, 75%, 52%);
+    color: rgba(0, 0, 0, 0.822);
     font-weight: 600;
     font-size: 90%;
     transition: all 0.3s;
@@ -87,7 +92,7 @@ main .informations a:hover {
 
 main button {
     cursor: pointer;
-    background: hsl(245, 75%, 52%);
+    background: #21D662;
     color: white;
     font-weight: 600;
     border: none;
@@ -95,12 +100,12 @@ main button {
     padding: 1rem 0;
     border-radius: 0.8rem;
     margin-bottom: 1.5rem;
-    box-shadow:  0px 20px 20px rgba(56, 42, 225, 0.2);
+    box-shadow:  0px 20px 20px rgba(42, 225, 133, 0.2);
     transition: 0.3s;
 }
 
 main button:hover {
-    background: #766cf1;
+    background: rgba(0, 0, 0, 0.822);
 }
 
 #cancel-order {
