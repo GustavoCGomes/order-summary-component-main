@@ -47,9 +47,9 @@ main .logo {
     border-radius: 1rem 1rem 0 0;
 }
 
-main .icon img {
+main img.icon {
     width: 100%;
-    border-radius: 0.5rem 0.5rem;
+    border-radius: 50rem;
 }
 
 main .informations {
